@@ -1,4 +1,5 @@
 # exrcice 4
+a=int (input("entrer un nombre : "))
 def decimalToBinairy(number):
     if number==0 :
         return 0
@@ -9,6 +10,6 @@ def decimalToBinairy(number):
             result= str(r) + result
             number//= 2
     return int(result)
-print(decimalToBinairy(5))
+print(decimalToBinairy(a))
 
 
