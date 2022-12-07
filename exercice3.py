@@ -12,6 +12,6 @@ def fact(X):
 def sommeSerie(n):
     sommeSerie = 0
     for i in range(1, n+1):
-        sommeSerie += fact(i-1)
+        sommeSerie += fact(i)/i
     return sommeSerie
 print(sommeSerie(4))
